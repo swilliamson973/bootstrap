@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"body {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n    \n  }\n\n  // Customised colour palette\n$heading-text-colour: #F04B45;  // Red\n$highlight-colour: #E9A822;    // Bright orange\n$body-bg:#233351;                 // Navy Blue\n$body-text-colour: #0D0D0D;     // Dark colour for text\n$secondary-highlight: #F9E721;  //Secondary highlight colour (Yellow)\n\n.navbar-orange {\n    background-color:#F04B45;\n    color: #ffff;\n}\n\n  "
+		"body {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n    \n  }\n\n  // Customised colour palette\n$heading-text-colour: #F04B45;  // Red\n$highlight-colour: #E9A822;    // Bright orange\n$body-bg:#233351;                 // Navy Blue\n$body-text-colour: #0D0D0D;     // Dark colour for text\n$secondary-highlight: #F9E721;  //Secondary highlight colour (Yellow)\n\n.navbar-orange {\n    background-color: $heading-text-colour;\n    color: #ffff;\n}\n\n  "
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CAEpB,AASH,AAAA,cAAc,AAAC,CACX,gBAAgB,CAAC,OAAO,CACxB,KAAK,CAAE,KAAK,CACf"
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CAEpB,AASH,AAAA,cAAc,AAAC,CACX,gBAAgB,CAPE,OAAO,CAQzB,KAAK,CAAE,KAAK,CACf"
 }
