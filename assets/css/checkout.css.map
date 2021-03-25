@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "checkout.css",
+	"sources": [
+		"../../scss/checkout.scss"
+	],
+	"sourcesContent": [
+		"//\n// Custom styles\n//\n\nbody {\n    background-color: rgb(245, 214, 75);\n    // font-size: 1.2rem;\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  form {\n    font-size: 1.2rem;\n  }"
+	],
+	"names": [],
+	"mappings": "AAIA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,OAAiB,CAEpC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,MAAM,CAClB"
+}

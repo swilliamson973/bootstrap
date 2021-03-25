@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "product.css",
+	"sources": [
+		"../../scss/product.scss"
+	],
+	"sourcesContent": [
+		".product {\n    display: grid;\n    grid-template-columns: repeat(3,1fr);\n    gap: 2.5rem;\n}\n\n.product-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 2.5rem;\n  \n    @media screen and (min-width: 576px) and (max-width: 992px) {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  \n    @media screen and (max-width: 576px) {\n      grid-template-columns: repeat(1, 1fr);\n    }\n  }"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAa,CACpC,GAAG,CAAE,MAAM,CACd,AAED,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,MAAM,CASZ,AAPC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL9D,AAAA,aAAa,AAAC,CAMR,qBAAqB,CAAE,cAAc,CAMxC,CAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATvC,AAAA,aAAa,AAAC,CAUR,qBAAqB,CAAE,cAAc,CAExC"
+}

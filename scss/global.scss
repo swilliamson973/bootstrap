@@ -36,11 +36,6 @@
 $enable-gradients: true;
 $enable-shadows: true;
 
-// Customize some defaults
-$body-color: $purple;
-$body-bg: #f5f5f5;
-$border-radius: .4rem;
-
 // @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot"; // Required
 @import "bootstrap/scss/type";
@@ -76,16 +71,14 @@ $border-radius: .4rem;
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
 
+// Customised colour palette
+$heading-text-colour: #F04B45;  // Red
+$highlight-colour: #E9A822;    // Bright orange
+$body-bg:#233351;                 // Navy Blue
+$body-text-colour: #0D0D0D;     // Dark colour for text
+$secondary-highlight: #F9E721;  //Secondary highlight colour (Yellow)
 
-//
-// Custom styles
-//
 
-body {
-  padding: 3rem 1.5rem;
-}
-
-// Style Bootstrap icons
-.bi {
-  fill: currentColor;
+h1 {
+  color: $heading-text-colour
 }
