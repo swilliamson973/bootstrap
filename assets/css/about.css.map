@@ -5,8 +5,8 @@
 		"../../scss/about.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\n\nbody {\n    \n    background-color: rgb(255, 255, 255);\n  }\n\n  // Customised colour palette\n$heading-text-colour: #F04B45;  // Red\n$highlight-colour: #E9A822;    // Bright orange\n$body-bg:#233351;                 // Navy Blue\n$body-text-colour: #0D0D0D;     // Dark colour for text\n$secondary-highlight: #F9E721;  //Secondary highlight colour (Yellow)\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
+		"//\n// Custom styles\n//\n\n\nbody { \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
 	],
 	"names": [],
-	"mappings": "AAKA,AAAA,IAAI,AAAC,CAED,gBAAgB,CAAE,IAAkB,CACrC,AAUD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+	"mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
 }
