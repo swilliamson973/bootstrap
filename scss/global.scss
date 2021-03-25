@@ -72,12 +72,12 @@ $enable-shadows: true;
 // @import "bootstrap/scss/print";
 
 // Customised colour palette
-$heading-text-colour: #F04B45;  // Red
-$highlight-colour: #E9A822;    // Bright orange
-$body-bg:#233351;                 // Navy Blue
-$body-text-colour: #0D0D0D;     // Dark colour for text
-$secondary-highlight: #F9E721;  //Secondary highlight colour (Yellow)
-
+$heading-text-colour: #F04B45;      // Red
+$highlight-colour: #E9A822;         // Bright orange
+$body-bg:#233351;                   // Navy Blue
+$body-text-colour: #0D0D0D;         // Dark colour for text
+$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
+$text-white: snow;                  //white 
 
 h1 {
   color: $heading-text-colour
