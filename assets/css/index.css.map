@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\n// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n\nbody {   \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  footer {\n    grid-area: footer;\n    height: 300px;\n    background-color:$highlight-colour;\n      margin-top: 20px;\n      text-align: center;\n      font-size: 18pt;\n      color: #fff;\n}"
+		"//\n// Custom styles\n//\n\n// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n\nbody {   \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  footer {\n    \n    grid-area: footer;\n    height: 300px;\n    background-color:$highlight-colour;\n      margin-top: 20px;\n      text-align: center;\n      font-size: 18pt;\n      color: #fff;\n}"
 	],
 	"names": [],
-	"mappings": "AAcA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,MAAM,AAAC,CACL,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,KAAK,CACb,gBAAgB,CApBD,OAAO,CAqBpB,UAAU,CAAE,IAAI,CAChB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,IAAI,CAChB"
+	"mappings": "AAcA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,MAAM,AAAC,CAEL,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,KAAK,CACb,gBAAgB,CArBD,OAAO,CAsBpB,UAAU,CAAE,IAAI,CAChB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,IAAI,CAChB"
 }
