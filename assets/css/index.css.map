@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\n\nbody {   \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
+		"//\n// Custom styles\n//\n\n\nbody {   \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  footer {\n    grid-area: footer;\n    height: 300px;\n    background-color:gainsboro;\n      margin-top: 20px;\n      text-align: center;\n      font-size: 18pt;\n      color: #fff;\n}"
 	],
 	"names": [],
-	"mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+	"mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,MAAM,AAAC,CACL,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAC,SAAS,CACxB,UAAU,CAAE,IAAI,CAChB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,IAAI,CAChB"
 }

@@ -11,3 +11,13 @@ body {
   .bi {
     fill: currentColor;
   }
+
+  footer {
+    grid-area: footer;
+    height: 300px;
+    background-color:$highlight-colour;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 18pt;
+      color: #fff;
+}
