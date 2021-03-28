@@ -5,8 +5,8 @@
 		"../../scss/contact.scss"
 	],
 	"sourcesContent": [
-		""
+		"//\n// Custom styles\n//\n\n\nbody { \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
 }
