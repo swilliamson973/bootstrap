@@ -11,12 +11,14 @@ $text-white: snow;                  //white
     padding-bottom: 20px;
   }
   
-.navbar {
-    margin-bottom: 20px;
-    color: $text-white;
-  }
+// .navbar {
+//     margin-bottom: 20px;
+//     color: $text-white;
+//   }
 
   .navbar-orange {
       background-color: $heading-text-colour;
+      margin-bottom: 20px;
+      color: $text-white;
   }
 
