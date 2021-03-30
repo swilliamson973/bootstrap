@@ -2,6 +2,13 @@
 // Custom styles
 //
 
+// Customised colour palette
+$heading-text-colour: #F04B45;      // Red
+$highlight-colour: #E9A822;         // Bright orange
+$body-bg:#233351;                   // Navy Blue
+$body-text-colour: #0D0D0D;         // Dark colour for text
+$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
+$text-white: snow;                  //white 
 
 body { 
     background-color: rgb(255, 255, 255);
@@ -12,6 +19,7 @@ body {
     fill: currentColor;
   }
 
-  h1,h2,h3,h4,h5,h6 {
+  h1 {
     font-family: karla;
-  }
+    color: $heading-text-colour;
+    }
