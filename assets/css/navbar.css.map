@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n.body {\n    padding-bottom: 20px;\n  }\n  \n// .navbar {\n//     margin-bottom: 20px;\n//     color: $text-white;\n//   }\n\n  .navbar-orange {\n      background-color: $heading-text-colour;\n      margin-bottom: 20px;\n      color: $text-white;\n  }\n\n  h1,h2,h3,h4,h5,h6{\n      color: snow;\n  }\n\n"
+		"// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n.body {\n    padding-bottom: 20px;\n  }\n  \n.navbar {\n    margin-bottom: 20px;\n    color: $text-white;\n  }\n\n  .navbar-orange {\n      background-color: $heading-text-colour;\n      margin-bottom: 20px;\n      color: $text-white;\n  }\n  \n\n"
 	],
 	"names": [],
-	"mappings": "AASA,AAAA,KAAK,AAAC,CACF,cAAc,CAAE,IAAI,CACrB,AAOD,AAAA,cAAc,AAAC,CACX,gBAAgB,CAlBA,OAAO,CAmBvB,aAAa,CAAE,IAAI,CACnB,KAAK,CAfE,IAAI,CAgBd,AAED,AAAA,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,AAAA,CACb,KAAK,CAAE,IAAI,CACd"
+	"mappings": "AASA,AAAA,KAAK,AAAC,CACF,cAAc,CAAE,IAAI,CACrB,AAEH,AAAA,OAAO,AAAC,CACJ,aAAa,CAAE,IAAI,CACnB,KAAK,CATI,IAAI,CAUd,AAED,AAAA,cAAc,AAAC,CACX,gBAAgB,CAlBA,OAAO,CAmBvB,aAAa,CAAE,IAAI,CACnB,KAAK,CAfE,IAAI,CAgBd"
 }

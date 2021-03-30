@@ -5,8 +5,8 @@
 		"../../scss/about.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\n\nbody { \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }"
+		"//\n// Custom styles\n//\n\n\nbody { \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  h1,h2,h3,h4,h5,h6 {\n    font-family: karla;\n  }"
 	],
 	"names": [],
-	"mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+	"mappings": "AAKA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,AAAC,CAChB,WAAW,CAAE,KAAK,CACnB"
 }
