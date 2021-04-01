@@ -22,9 +22,22 @@ body {
     fill: currentColor;
   }
 
+  // .btn-learn {
+  //   background-color: $green;
+  // }
+
   .btn-learn {
-    background-color: $green;
+    background-color: #f2cf66 !important;
+    border-color: #0d0d0d !important;
+    border-width: 2px;
+    color: #333 !important;
   }
+  
+  .btn-learn:hover {
+    background-color:#f5840c !important;
+    color: seashell !important;
+  }
+  
 
   
   .main-title {
