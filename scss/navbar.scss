@@ -21,6 +21,10 @@ $text-white: snow;                  //white
       margin-bottom: 20px;   
   }
 
+  .dropdown-menu {
+    background-color: $heading-text-colour;
+  }
+
   .navbar-orange a {
     color: $text-white;    
 }
