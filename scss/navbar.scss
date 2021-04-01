@@ -18,13 +18,11 @@ $text-white: snow;                  //white
 
   .navbar-orange {
       background-color: $heading-text-colour;
-      margin-bottom: 20px;
-      color: $text-white;
-      
+      margin-bottom: 20px;   
   }
 
-  a:link {
-      color: $text-white;
-  }
-  
+  .navbar-orange a {
+    color: $text-white;    
+}
+
 
