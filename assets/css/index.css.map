@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\n// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n\nbody {   \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  \n  h2 {\n    font-family: karla;\n    color: $heading-text-colour;\n    }\n\nh1 {\n  color: $secondary-highlight;\n}\n"
+		"//\n// Custom styles\n//\n\n// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n\nbody {   \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  \n  h1,h2 {\n    font-family: karla;\n    color: $heading-text-colour;\n    }\n\n"
 	],
 	"names": [],
-	"mappings": "AAcA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAGD,AAAA,EAAE,AAAC,CACD,WAAW,CAAE,KAAK,CAClB,KAAK,CArBa,OAAO,CAsBxB,AAEL,AAAA,EAAE,AAAC,CACD,KAAK,CArBe,OAAO,CAsB5B"
+	"mappings": "AAcA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAGD,AAAA,EAAE,CAAC,EAAE,AAAC,CACJ,WAAW,CAAE,KAAK,CAClB,KAAK,CArBa,OAAO,CAsBxB"
 }
