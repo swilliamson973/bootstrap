@@ -34,9 +34,11 @@ body {
   }
   
   .btn-learn:hover {
-    background-color:#f5840c !important;
+    background-color:$body-bg !important;
     color: seashell !important;
+    border-color: $body-bg !important;
   }
+
   
 
   
