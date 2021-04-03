@@ -9,7 +9,7 @@ $body-bg:#233351;                   // Navy Blue
 $body-text-colour: #0D0D0D;         // Dark colour for text
 $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
 $text-white: snow;                  //white 
-
+$green: #bfd746;    
 
 
 body { 
@@ -24,4 +24,16 @@ body {
   h1 {
       color: $secondary-highlight;
       font-family: karla;
+  }
+
+  .color-yellow-blog {
+      color: $secondary-highlight;
+  }
+
+  .color-green-blog {
+      color: $green;
+  }
+
+  .color-orange-blog {
+     color: $highlight-colour
   }

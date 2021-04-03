@@ -5,8 +5,8 @@
 		"../../scss/blog.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\n// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n\n\n\nbody { \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  h1 {\n      color: $secondary-highlight;\n      font-family: karla;\n  }"
+		"//\n// Custom styles\n//\n\n// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n$green: #bfd746;    \n\n\nbody { \n    background-color: rgb(255, 255, 255);\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n\n  h1 {\n      color: $secondary-highlight;\n      font-family: karla;\n  }\n\n  .color-yellow-blog {\n      color: $secondary-highlight;\n  }\n\n  .color-green-blog {\n      color: $green;\n  }\n\n  .color-orange-blog {\n     color: $highlight-colour\n  }"
 	],
 	"names": [],
-	"mappings": "AAcA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,EAAE,AAAC,CACC,KAAK,CAfW,OAAO,CAgBvB,WAAW,CAAE,KAAK,CACrB"
+	"mappings": "AAcA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,IAAkB,CACrC,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,EAAE,AAAC,CACC,KAAK,CAfW,OAAO,CAgBvB,WAAW,CAAE,KAAK,CACrB,AAED,AAAA,kBAAkB,AAAC,CACf,KAAK,CApBW,OAAO,CAqB1B,AAED,AAAA,iBAAiB,AAAC,CACd,KAAK,CAtBH,OAAO,CAuBZ,AAED,AAAA,kBAAkB,AAAC,CAChB,KAAK,CA/BS,OAAO,CAgCvB"
 }
