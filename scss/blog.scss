@@ -63,6 +63,13 @@ body {
     color: #333 !important;
   }
 
+  .btn-yellow:hover {
+    background-color:$body-bg !important;
+    color: seashell !important;
+    border-color: $body-bg !important;
+  }
+
+
   .btn-grn {
     background-color: $green !important;
     border-color: $green !important;
@@ -83,3 +90,8 @@ body {
     color: #333 !important;
   }
 
+  .btn-orange:hover {
+    background-color:$body-bg !important;
+    color: seashell !important;
+    border-color: $body-bg !important;
+  }
