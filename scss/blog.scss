@@ -55,3 +55,11 @@ body {
 .home-banner-img {
   background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat;
 }
+
+.btn-grn {
+    background-color: $green !important;
+    border-color: $green !important;
+    border-width: 2px;
+    color: #333 !important;
+  }
+}
