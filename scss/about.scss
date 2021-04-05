@@ -25,5 +25,9 @@ body {
     }
 
     .featurette-heading {
+        color: $body-bg;
+    }
+
+    .text-muted {
         color: $secondary-highlight;
     }
