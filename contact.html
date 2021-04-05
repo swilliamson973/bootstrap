@@ -63,34 +63,29 @@
     </nav>
 </header>
 
-  <body>
-    <div class="col-md-8 mx-auto">
-      <h1>Contact Us</h1>
-      <p>Sophie’s Meal plans aim to help households stay organised and create delicious at home meals on a budget. We aim to help households by creating easy to follow meal plans for your family or for students in your flat, as we aim to cater different lifestyles.</p>
-      <p>We offer a wide range of meal ideas and meal plan guides, we have recipes for breakfast, lunches and dinners, using both fresh and frozen ingredients. We also offer useful tips and tricks to help with meal planning and prepping, How to get more for your money.</p>
-      <p> Sophie’s Meal Plans will help you reduce your food waste which is good for the environment and your pockets. Come over today to browse and services and see if it would suit your lifestyle.
-    </p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Click me!</button>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
 
       <hr class="my-5">
 
