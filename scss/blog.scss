@@ -52,9 +52,7 @@ body {
     border-color: $body-bg !important;
   }
 
-.home-banner-img {
-  background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat;
-}
+
 
   .btn-yellow {
     background-color: $secondary-highlight !important;
@@ -94,4 +92,16 @@ body {
     background-color:$body-bg !important;
     color: seashell !important;
     border-color: $body-bg !important;
+  }
+
+  .btn-secondary:hover {
+    background-color:$body-bg !important;
+    color: seashell !important;
+    border-color: $body-bg !important;
+
+  }
+
+
+  .home-banner-img {
+    background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat;
   }
