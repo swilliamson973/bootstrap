@@ -13,6 +13,13 @@ $green: #bfd746;
 
 
 
+h1{
+  color: $green;
+}
+p{
+  color: $text-white;
+}
+
 body {   
     background-color: rgb(255, 255, 255);
   }
@@ -39,9 +46,30 @@ body {
     border-color: $body-bg !important;
   }
 
+// .home-banner-img {
+//   background:url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_east,h_2000,w_3000,x_200/v1617673974/IMG_3445_bygl5w.jpg") no-repeat;
+// }
+
 .home-banner-img {
-  background:url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_east,h_2000,w_3000,x_200/v1617673974/IMG_3445_bygl5w.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_east,h_2000,w_3000,x_200/v1617673974/IMG_3445_bygl5w.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 3em;
 }
+
+@media (max-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+  .home-banner-img {
+    background-size: 200% auto;
+    background-position: top right;
+  }
+  .home-banner-img h1, .home-banner-img p, .home-banner-img a {
+    font-size: 1rem !important;
+  }
+}
+
 
   
   .main-title {
