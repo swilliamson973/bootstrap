@@ -8,6 +8,9 @@ $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
 $text-white: snow;                  //white 
 $green: #bfd746;  
 
+header {
+    margin-bottom: 2rem;
+}
 
 
 .product {
@@ -32,4 +35,5 @@ $green: #bfd746;
 
   h1 {
     color: $highlight-colour
+    
 }

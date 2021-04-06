@@ -12,6 +12,7 @@ $text-white: snow;                  //white
 $green: #bfd746;    
 
 
+
 body { 
     background-color: rgb(255, 255, 255);
   }
@@ -37,6 +38,7 @@ body {
   .color-orange-blog {
      color: $highlight-colour
   }
+  
 
 
   .btn-learn {
@@ -110,3 +112,4 @@ body {
       color: $secondary-highlight;
   }
   
+  img{ padding-bottom: 20px; }
