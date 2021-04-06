@@ -16,20 +16,24 @@ body {
     background-color: rgb(255, 255, 255);
   }
   
-  // Style Bootstrap icons
-  .bi {
-    fill: currentColor;
-  }
+//   // Style Bootstrap icons
+//   .bi {
+//     fill: currentColor;
+//   }
 
-//   h1 {
-//     font-family: karla;
-//     color:$body-bg ;
-//     }
+// //   h1 {
+// //     font-family: karla;
+// //     color:$body-bg ;
+// //     }
 
     .featurette-heading {
         color: $body-bg;
     }
 
     .text-muted {
+        color: $green;
+    }
+    
+    .header-2{
         color: $green;
     }
