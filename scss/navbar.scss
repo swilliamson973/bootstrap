@@ -14,17 +14,12 @@ $green: #bfd746;
 
 .search-box {
     margin-bottom: 0;
-}
-  
-.navbar {
-    margin-bottom: 20px;
-    color: $text-white;
-  }
+} 
 
-  .navbar-orange {
+.navbar-orange {
+    color: $text-white;
       background-color: $heading-text-colour;
-      margin-bottom: 20px;   
-  }
+  }    
 
   .dropdown-menu {
     background-color: $heading-text-colour;
