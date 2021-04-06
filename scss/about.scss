@@ -31,11 +31,11 @@ body {
 // //     }
 
     .featurette-heading {
-        color: $green;
+        color: $body-bg;
     }
 
-    .text-muted {
-        color: $green;
+    span {
+        color: $heading-text-colour;
     }
     
    
