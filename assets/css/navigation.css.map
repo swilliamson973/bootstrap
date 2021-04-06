@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navigation.css",
+	"sources": [
+		"../../scss/navigation.scss"
+	],
+	"sourcesContent": [
+		"// Customised colour palette\n$heading-text-colour: #F04B45;      // Red\n$highlight-colour: #E9A822;         // Bright orange\n$body-bg:#233351;                   // Navy Blue\n$body-text-colour: #0D0D0D;         // Dark colour for text\n$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)\n$text-white: snow;                  //white \n$green: #bfd746;   \n\n\n.body {\n    padding-bottom: 20px;\n  }\n\n.search-box {\n    margin-bottom: 0;\n} \n\n.navbar-orange {\n    color: $text-white;\n      background-color: $heading-text-colour;\n  }    \n\n  .dropdown-menu {\n    background-color: $heading-text-colour;\n  }\n\n  .navbar-orange a {\n    color: $text-white;    \n}\n\n\n"
+	],
+	"names": [],
+	"mappings": "AAUA,AAAA,KAAK,AAAC,CACF,cAAc,CAAE,IAAI,CACrB,AAEH,AAAA,WAAW,AAAC,CACR,aAAa,CAAE,CAAC,CACnB,AAED,AAAA,cAAc,AAAC,CACX,KAAK,CAbI,IAAI,CAcX,gBAAgB,CAnBA,OAAO,CAoB1B,AAED,AAAA,cAAc,AAAC,CACb,gBAAgB,CAvBE,OAAO,CAwB1B,AAED,AAAA,cAAc,CAAC,CAAC,AAAC,CACf,KAAK,CAtBI,IAAI,CAuBhB"
+}
