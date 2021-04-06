@@ -54,50 +54,50 @@ body {
 
 
 
-//   .btn-yellow {
-//     background-color: $secondary-highlight !important;
-//     // border-color: $secondary-highlight !important;
-//     // border-width: 2px;
-//     color: #333 !important;
-//   }
+  .btn-yellow {
+    background-color: $secondary-highlight !important;
+    border-color: $secondary-highlight !important;
+    border-width: 2px;
+    color: #333 !important;
+  }
 
-//   .btn-yellow:hover {
-//     background-color:$body-bg !important;
-//     color: seashell !important;
-//     // border-color: $body-bg !important;
-//   }
-
-
-//   .btn-grn {
-//     background-color: $green !important;
-//     // border-color: $green !important;
-//     // border-width: 2px;
-//     color: #333 !important;
-//   }
-
-//   .btn-grn:hover {
-//     background-color:$body-bg !important;
-//     color: seashell !important;
-//     // border-color: $body-bg !important;
-//   }
-
-//   .btn-orange {
-//     background-color: $highlight-colour!important;
-//     // border-color: $highlight-colour !important;
-//     // border-width: 2px;
-//     color: #333 !important;
-//   }
-
-  .btn-secondary {
-    background-color:$secondary-highlight !important;
+  .btn-yellow:hover {
+    background-color:$body-bg !important;
     color: seashell !important;
-    // border-color: $body-bg !important;
+    border-color: $body-bg !important;
+  }
+
+
+  .btn-grn {
+    background-color: $green !important;
+    border-color: $green !important;
+    border-width: 2px;
+    color: #333 !important;
+  }
+
+  .btn-grn:hover {
+    background-color:$body-bg !important;
+    color: seashell !important;
+    border-color: $body-bg !important;
+  }
+
+  .btn-orange {
+    background-color: $highlight-colour!important;
+    border-color: $highlight-colour !important;
+    border-width: 2px;
+    color: #333 !important;
+  }
+
+  .btn-orange:hover {
+    background-color:$body-bg !important;
+    color: seashell !important;
+    border-color: $body-bg !important;
   }
 
   .btn-secondary:hover {
     background-color:$body-bg !important;
     color: seashell !important;
-    // border-color: $body-bg !important;
+    border-color: $body-bg !important;
 
   }
 
@@ -107,5 +107,6 @@ body {
   }
 
   .post-1-title {
-      color: $heading-text-colour;
+      color: $secondary-highlight;
   }
+  

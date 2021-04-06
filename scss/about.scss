@@ -9,6 +9,8 @@ $body-bg:#233351;                   // Navy Blue
 $body-text-colour: #0D0D0D;         // Dark colour for text
 $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
 $text-white: snow;                  //white 
+$green: #bfd746;  
+
 
 body { 
     background-color: rgb(255, 255, 255);
@@ -19,15 +21,15 @@ body {
     fill: currentColor;
   }
 
-  h1 {
-    font-family: karla;
-    color:$body-bg ;
-    }
+//   h1 {
+//     font-family: karla;
+//     color:$body-bg ;
+//     }
 
     .featurette-heading {
         color: $body-bg;
     }
 
     .text-muted {
-        color: $secondary-highlight;
+        color: $green;
     }
