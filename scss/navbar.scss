@@ -34,14 +34,17 @@ $burntred: #732002;
 
   .navbar-orange a {
     color: $text-white;    
-}
+} 
 
-.navbar form, .navbar form input[type=text] {
+.navbar form {
   margin-bottom: 0 !important;
 }
 
-
-
+.navbar form input[type=text] {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: .375rem .75rem;
+}
 
 .footer-text {
   color: $text-white;
