@@ -2,14 +2,15 @@
 // Custom styles
 //
 
-// // Customised colour palette
-// $heading-text-colour: #F04B45;      // Red
-// $highlight-colour: #E9A822;         // Bright orange
-// $body-bg:#233351;                   // Navy Blue
-// $body-text-colour: #0D0D0D;         // Dark colour for text
-// $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
-// $text-white: snow;                  //white 
-// $green: #bfd746;    
+// Customised colour palette
+$heading-text-colour: #F04B45;      // Red
+$highlight-colour: #E9A822;         // Bright orange
+$body-bg:#233351;                   // Navy Blue
+$body-text-colour: #0D0D0D;         // Dark colour for text
+$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
+$text-white: snow;                  //white 
+$green: #bfd746;    
+
 $navy: #323E40;
 $yellow: #F2AB27;
 $orange: #D97D0D;
@@ -61,8 +62,8 @@ body {
 
 
   .btn-yellow {
-    background-color: $secondary-highlight !important;
-    border-color: $secondary-highlight !important;
+    background-color: $orange !important;
+    border-color: $orange !important;
     border-width: 2px;
     color: #333 !important;
   }
@@ -75,8 +76,8 @@ body {
 
 
   .btn-grn {
-    background-color: $green !important;
-    border-color: $green !important;
+    background-color: $red !important;
+    border-color: $red !important;
     border-width: 2px;
     color: #333 !important;
   }
@@ -88,8 +89,8 @@ body {
   }
 
   .btn-orange {
-    background-color: $highlight-colour!important;
-    border-color: $highlight-colour !important;
+    background-color: $burntred!important;
+    border-color: $burntred !important;
     border-width: 2px;
     color: #333 !important;
   }
