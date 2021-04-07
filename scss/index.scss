@@ -18,13 +18,16 @@ $red: #D94D1A;
 $burntred: #732002;
 
 
-h1{
-  color: $green;
-}
+// h1{
+//   color: $green;
+// }
 
 
 body {   
     background-color: rgb(255, 255, 255);
+  }
+  p {
+    color: snow;
   }
   
   // Style Bootstrap icons
