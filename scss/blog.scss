@@ -18,6 +18,27 @@ $red: #D94D1A;
 $burntred: #732002;
 
 
+.home-banner-img {
+    background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 3em;
+  }
+  
+  @media (max-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+    .home-banner-img {
+      background-size: 200% auto;
+      background-position: top right;
+    }
+    .home-banner-img h1, .home-banner-img p, .home-banner-img a {
+      font-size: 1rem !important;
+    }
+  }
+
+
 body { 
     background-color: rgb(255, 255, 255);
   }
@@ -115,13 +136,15 @@ body {
   }
 
 
-  .home-banner-img {
-    background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat;
-  }
+//   .home-banner-img {
+//     background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat;
+//   }
 
-  .post-1-title {
-      color: $secondary-highlight;
-  }
+  
   
   img{ padding-bottom: 20px;
+  }
+
+  .color-text {
+      color: $red;
   }
