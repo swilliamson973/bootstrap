@@ -37,11 +37,7 @@ $burntred: #732002;
 }
 
 
-.footer-red {
-  background-color: $burntred;
-  width: 100vw;
-  padding: 3em;
-}
+
 
 .footer-text {
   color: $text-white;
@@ -58,6 +54,8 @@ $burntred: #732002;
   list-style-type: none;
 }
 
-.footer-text {
-  color: snow;
+.footer-red {
+  background-color: $burntred;
+  width: 100vw;
+  padding: 3em;
 }
