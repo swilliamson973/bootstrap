@@ -39,4 +39,22 @@ $burntred: #732002;
 
 .footer-red {
   color: $burntred;
+  width: 100vw;
+  padding: 3em;
+}
+
+.footer-text {
+  color: $text-white;
+  margin-bottom: 1em;
+}
+
+.un-list {
+  display: inline;
+  list-style-type: none;
+}
+
+.or-list {
+  display: inline;
+  list-style-type: none;
+
 }
