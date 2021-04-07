@@ -2,14 +2,14 @@
 // Custom styles
 //
 
-// Customised colour palette
-$heading-text-colour: #F04B45;      // Red
-$highlight-colour: #E9A822;         // Bright orange
-$body-bg:#233351;                   // Navy Blue
-$body-text-colour: #0D0D0D;         // Dark colour for text
-$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
-$text-white: snow;                  //white 
-$green: #bfd746;    
+// // Customised colour palette
+// $heading-text-colour: #F04B45;      // Red
+// $highlight-colour: #E9A822;         // Bright orange
+// $body-bg:#233351;                   // Navy Blue
+// $body-text-colour: #0D0D0D;         // Dark colour for text
+// $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
+// $text-white: snow;                  //white 
+// $green: #bfd746;    
 
 $navy: #323E40;
 $yellow: #F2AB27;
@@ -75,9 +75,9 @@ body {
   }
   
   .btn-learn:hover {
-    background-color:$body-bg !important;
+    background-color:$navy !important;
     color: seashell !important;
-    border-color: $body-bg !important;
+    border-color: $navy !important;
   }
 
 
@@ -102,9 +102,9 @@ body {
   }
 
   .btn-yellow:hover {
-    background-color:$body-bg !important;
+    background-color:$navy !important;
     color: seashell !important;
-    border-color: $body-bg !important;
+    border-color: $navy !important;
   }
 
 
@@ -116,9 +116,9 @@ body {
   }
 
   .btn-grn:hover {
-    background-color:$body-bg !important;
+    background-color:$navy !important;
     color: seashell !important;
-    border-color: $body-bg !important;
+    border-color: $navy !important;
   }
 
   .btn-orange {
@@ -129,22 +129,22 @@ body {
   }
 
   .btn-orange:hover {
-    background-color:$body-bg !important;
+    background-color:$navy !important;
     color: seashell !important;
-    border-color: $body-bg !important;
+    border-color: $navy!important;
   }
 
   .btn-secondary{
-    background-color:$body-bg !important;
+    background-color:$navy !important;
     color: seashell !important;
-    border-color: $body-bg !important;
+    border-color: $navy !important;
   }
 
 
   .btn-secondary:hover {
-    background-color:$body-bg !important;
+    background-color:$navy !important;
     color: seashell !important;
-    border-color: $body-bg !important;
+    border-color: $navy !important;
   }
 
 
