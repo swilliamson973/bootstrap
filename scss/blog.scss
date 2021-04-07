@@ -82,6 +82,14 @@ body {
 
 
 
+  .Featurette-heading {
+      color: $navy;
+  }
+
+  .color-text {
+    color: $orange;
+}
+
   .btn-yellow {
     background-color: $orange !important;
     border-color: $orange !important;
@@ -136,15 +144,10 @@ body {
   }
 
 
-//   .home-banner-img {
-//     background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/v1617321842/Meal%20Planners/IMG_2002_hfwdud.jpg") no-repeat;
-//   }
+
 
   
   
   img{ padding-bottom: 20px;
   }
 
-  .color-text {
-      color: $red;
-  }
