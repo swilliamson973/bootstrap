@@ -11,6 +11,11 @@ $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
 $text-white: snow;                  //white 
 $green: #bfd746;  
 
+$navy: #323E40;
+$yellow: #F2AB27;
+$orange: #D97D0D;
+$red: #D94D1A;
+$burntred: #732002;
 
 header {
     margin-bottom: 2rem;
@@ -35,7 +40,7 @@ body {
     }
 
     .colour-text {
-        color: $heading-text-colour;
+        color: $red;
     }
     
     .colour-text-1 {
