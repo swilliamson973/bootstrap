@@ -4,16 +4,27 @@
 
 
 // Customised colour palette
-$heading-text-colour: #F04B45;      // Red
-$highlight-colour: #E9A822;         // Bright orange
-$body-bg:#233351;                   // Navy Blue
-$body-text-colour: #0D0D0D;         // Dark colour for text
-$secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
-$text-white: snow;                  //white 
-$green: #bfd746;    
+// $heading-text-colour: #F04B45;      // Red
+// $highlight-colour: #E9A822;         // Bright orange
+// $body-bg:#233351;                   // Navy Blue
+// $body-text-colour: #0D0D0D;         // Dark colour for text
+// $secondary-highlight: #F9E721;      //Secondary highlight colour (Yellow)
+// $text-white: snow;                  //white 
+// $green: #bfd746;    
+
+$navy: #323E40;
+$yellow: #F2AB27;
+$orange: #D97D0D;
+$red: #D94D1A;
+$burntred: #732002;
 
 header {
     margin-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: $yellow;
 }
 
   
