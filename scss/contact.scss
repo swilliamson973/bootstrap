@@ -3,8 +3,8 @@
 
 
 
-Customised colour palette
-$heading-text-colour: #F04B45;      // Red
+//Customised colour palette
+// $heading-text-colour: #F04B45;      // Red
 $highlight-colour: #E9A822;         // Bright orange
 $body-bg:#233351;                   // Navy Blue
 $body-text-colour: #0D0D0D;         // Dark colour for text
@@ -27,6 +27,13 @@ h1 {
     color: $yellow;
 }
 
+h6 {
+    text-align: center;
+    color: $burntred;
+    margin-bottom: 2em;
+}
+
+
   
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -42,7 +49,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: $secondary-highlight;
+    background-color: $orange;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -52,7 +59,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: $highlight-colour;
+    background-color: $navy;
   }
   
   /* Add a background color and some padding around the form */
