@@ -93,6 +93,18 @@ body {
     color: $orange;
 }
 
+.btn-orange {
+  background-color: $red!important;
+  border-color: $red !important;
+  border-width: 2px;
+  color: $text-white!important;
+}
+
+.btn-orange:hover {
+  background-color:$navy !important;
+  color: seashell !important;
+  border-color: $navy!important;
+}
 
     .dark-box {
       margin: 1em;
