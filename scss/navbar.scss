@@ -25,7 +25,7 @@ $burntred: #732002;
 
 .navbar-orange {
     color: $text-white;
-      background-color: $burntred;
+      background-color: $red;
   }    
 
   .dropdown-menu {
@@ -37,3 +37,6 @@ $burntred: #732002;
 }
 
 
+.footer-red {
+  background-color: $burntred;
+}
