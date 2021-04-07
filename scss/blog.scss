@@ -47,8 +47,8 @@ body {
 
 
   .btn-learn {
-    background-color: $secondary-highlight !important;
-    border-color: $secondary-highlight !important;
+    background-color: $yellow !important;
+    border-color: $yellow !important;
     border-width: 2px;
     color: #333 !important;
   }
@@ -65,7 +65,7 @@ body {
     background-color: $orange !important;
     border-color: $orange !important;
     border-width: 2px;
-    color: #333 !important;
+    color: $text-white!important;
   }
 
   .btn-yellow:hover {
@@ -79,7 +79,7 @@ body {
     background-color: $red !important;
     border-color: $red !important;
     border-width: 2px;
-    color: #333 !important;
+    color: $text-white !important;
   }
 
   .btn-grn:hover {
@@ -92,7 +92,7 @@ body {
     background-color: $burntred!important;
     border-color: $burntred !important;
     border-width: 2px;
-    color: #333 !important;
+    color: $text-white!important;
   }
 
   .btn-orange:hover {
@@ -101,11 +101,17 @@ body {
     border-color: $body-bg !important;
   }
 
+  .btn-secondary{
+    background-color:$body-bg !important;
+    color: seashell !important;
+    border-color: $body-bg !important;
+  }
+
+
   .btn-secondary:hover {
     background-color:$body-bg !important;
     color: seashell !important;
     border-color: $body-bg !important;
-
   }
 
 
@@ -117,4 +123,5 @@ body {
       color: $secondary-highlight;
   }
   
-  img{ padding-bottom: 20px; }
+  img{ padding-bottom: 20px;
+  }
