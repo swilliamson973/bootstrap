@@ -74,10 +74,6 @@ body {
 }
 
 
-body {
-  margin-top: 3em;
-}
-
 
   
   .main-title {
@@ -87,6 +83,7 @@ body {
 
 
     .dark-box {
+      padding-top: 3em;
       background-color: $navy;
     }
 
