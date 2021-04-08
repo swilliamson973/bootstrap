@@ -17,12 +17,6 @@ $orange: #D97D0D;
 $red: #D94D1A;
 $burntred: #732002;
 
-
-// h1{
-//   color: $green;
-// }
-
-
 body {   
     background-color: rgb(255, 255, 255);
   }
@@ -60,7 +54,7 @@ body {
 
 
 .home-banner-img {
-  background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_south,h_1324,w_2318,y_600/v1617705128/IMG_1453_mfpy4w.jpg") no-repeat center center fixed; 
+  background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_north_west,h_2300,w_3600,y_150/v1617852918/IMG_0377_h3lios.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,7 +78,7 @@ body {
   
   .main-title {
     font-family: karla;
-    color: $yellow;
+    color: $orange;
     }
 
     .Featurette-heading {
