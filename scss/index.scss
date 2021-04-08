@@ -78,8 +78,18 @@ body {
   
   .main-title {
     font-family: karla;
-    color: $orange;
+    color: seashell;
+    background-color: $yellow;
+    padding: 0.2em;
+    max-width: 460px;
     }
+
+    // .main-title {
+    //   font-family: karla;
+    //   color: $yellow;
+    //   background-color: rgba(255,255,255,0.3);
+    //   padding: 0.2em;
+    //   }
 
     .Featurette-heading {
       color: $navy;
@@ -102,7 +112,7 @@ body {
 .btn-orange {
   background-color: $red!important;
   border-color: $red !important;
-  border-width: 2px;
+  border-width: 4px;
   color: $text-white!important;
 }
 
@@ -119,5 +129,5 @@ body {
 
     .light-box {
       margin: 1em;
-      background: $yellow
+      background: $yellow;
     }
