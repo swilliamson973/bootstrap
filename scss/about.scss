@@ -43,6 +43,19 @@ body {
         color: $orange;
     }
 
+
+    .btn-orange {
+        background-color: $burntred!important;
+        border-color: $burntred !important;
+        border-width: 2px;
+        color: $text-white!important;
+      }
+    
+      .btn-orange:hover {
+        background-color:$navy !important;
+        color: seashell !important;
+        border-color: $navy!important;
+      }
    
 
     
