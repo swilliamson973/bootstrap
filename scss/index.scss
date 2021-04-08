@@ -132,7 +132,12 @@ body {
       background: $yellow;
     }
 
+
+    .btn-last {
+      border-color: black!important;
+    }
     .btn-last:hover {
- background-color: black;
- border-color: black;
+ background-color: black!important;
+ border-color: black!important;
+ color: $yellow!important;
     }
