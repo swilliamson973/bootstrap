@@ -57,6 +57,8 @@ body {
 //   background:url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_east,h_2000,w_3000,x_200/v1617673974/IMG_3445_bygl5w.jpg") no-repeat;
 // }
 
+
+
 .home-banner-img {
   background: url("https://res.cloudinary.com/dzddu7nbe/image/upload/c_crop,g_south,h_1324,w_2318,y_600/v1617705128/IMG_1453_mfpy4w.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -87,11 +89,17 @@ body {
 
     .Featurette-heading {
       color: $navy;
+      margin-top: 2em;
+      margin-bottom: 2em;
   }
 
   .featurette-image {
-      margin-bottom: 3px;
+      margin-bottom: 2em;
+      margin-top: 2em;
   }
+
+
+
 
   .color-text {
     color: $orange;
